@@ -1,0 +1,27 @@
+# Временные файлы и кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.log
+
+# Чувствительные данные
+.env
+secrets.json
+config.yaml
+
+# Артефакты сборки
+build/
+dist/
+*.egg-info/
